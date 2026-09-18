@@ -4,19 +4,22 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "155.117.19.17",
-      "server_port": 443,
-      "password": "5fa748137b6d822308eea4611f474ad5",
+      "type": "vless",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "server": "64.225.110.247",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true
       },
-      "obfs": {
-        "type": "salamander",
-        "password": "a39ca173b57ac7021b08bf3e3de9f1f6"
+      "transport": {
+        "type": "ws",
+        "path": "/acg/buy/ajax",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
       }
     },
     {
@@ -24,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
