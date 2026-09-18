@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -35,19 +35,20 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "91.186.218.227",
-      "server_port": 4443,
-      "uuid": "e579841b-70d6-40e4-bb5c-66e3a366fe83",
+      "server": "g1.haxat.bestvbest.ir",
+      "server_port": 20610,
+      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
       "tls": {
         "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+        "server_name": "doctor-yab.ir",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI",
+          "short_id": "1d1a8f9fefeff5e6"
         }
       }
     },

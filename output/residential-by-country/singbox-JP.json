@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "128.241.25.72",
-      "server_port": 30021,
-      "uuid": "65f26a08-9a5e-4b28-9004-f98676cc1e49",
+      "server": "89.22.224.146",
+      "server_port": 43788,
+      "uuid": "49a6eeaf-7dbf-4aa5-ba21-b36cd47e724e",
       "tls": {
         "enabled": true,
-        "server_name": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev",
+        "server_name": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/@Marisa_kristi ",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+          "Host": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
         }
       }
     },

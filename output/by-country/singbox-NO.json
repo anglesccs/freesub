@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇴 挪威 (Norway) 01 - xiaohe",
-      "server": "185.213.23.63",
-      "server_port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
       "type": "vless",
-      "tag": "🇳🇴 挪威 (Norway) 02 - xiaohe",
+      "tag": "🇳🇴 挪威 (Norway) 01 - xiaohe",
       "server": "46.29.238.32",
       "server_port": 40443,
       "uuid": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
@@ -32,6 +24,14 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇳🇴 挪威 (Norway) 02 - xiaohe",
+      "server": "185.213.23.63",
+      "server_port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+    },
+    {
       "type": "vless",
       "tag": "🇳🇴 挪威 (Norway) 03 - xiaohe",
       "server": "151.242.168.125",
@@ -43,7 +43,7 @@
         "server_name": "bowandbead.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
