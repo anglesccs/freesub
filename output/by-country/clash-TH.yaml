@@ -14,9 +14,9 @@ proxies:
   ws-opts:
     path: /ws
     headers:
-      Host: v2ray.simspeedup.com
+      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: 104.16.10.2
+  server: 104.19.32.166
   port: 443
   udp: true
   type: vless
