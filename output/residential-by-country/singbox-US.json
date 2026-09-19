@@ -6,14 +6,14 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "172.64.229.2",
-      "server_port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "172.67.143.54",
+      "server_port": 8080,
+      "uuid": "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2560security=tls ",
+        "path": "/taha3",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "aged-silence-8d7d.tahaggs.workers.dev"
         }
       }
     },
