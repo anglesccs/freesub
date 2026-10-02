@@ -4,23 +4,81 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "cu.877774.xyz",
+      "server": "undef.network",
+      "server_port": 2052,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
+      "transport": {
+        "type": "ws",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
+      "server": "ccs2g.pai50288.uk",
       "server_port": 443,
-      "uuid": "f3244e28-157b-49e9-9730-89832f89ebcc",
-      "security": "auto",
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
       "tls": {
         "enabled": true,
-        "server_name": "balanced-minds-carrier-demanding.trycloudflare.com",
+        "server_name": "ccs2g.pai50288.uk",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vmess-argo",
-        "headers": {
-          "Host": "balanced-minds-carrier-demanding.trycloudflare.com"
+        "path": "/pai50288"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "server": "104.21.3.219",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccs2g.pai50288.uk",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pai50288",
+        "headers": {
+          "Host": "ccs2g.pai50288.uk"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "104.21.3.219",
+      "server_port": 443,
+      "uuid": "8be461cb-a0df-47cf-bc0d-4d9e6a22fa74",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccs2g.pai50288.uk",
+        "insecure": false,
+        "alpn": [
+          "h2",
+          "http/1.1",
+          "h3"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/pai50288"
       }
     },
     {
@@ -28,14 +86,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe",
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🌐 其他地区 (Other) 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe",
+        "🌐 其他地区 (Other) 02 - xiaohe",
+        "🌐 其他地区 (Other) 03 - xiaohe",
+        "🌐 其他地区 (Other) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
