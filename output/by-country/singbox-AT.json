@@ -12,27 +12,12 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-      "server": "195.74.90.122",
-      "server_port": 443,
-      "uuid": "698b212d-ca12-4794-8256-252a6e1b4533",
-      "tls": {
-        "enabled": true,
-        "server_name": "w2p6.vpnpolar.online",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/beeline",
-        "headers": {
-          "Host": "w2p6.vpnpolar.online"
-        }
-      }
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16308,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
     },
     {
       "type": "selector",
