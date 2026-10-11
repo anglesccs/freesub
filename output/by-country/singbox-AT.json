@@ -12,12 +12,16 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vmess",
+      "type": "hysteria2",
       "tag": "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16308,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "server": "5.254.51.108",
+      "server_port": 9443,
+      "password": "Hc9_NX924RE_Mn948rgrwiub_m93V84nll",
+      "tls": {
+        "enabled": true,
+        "server_name": "keyhop-voxility-at.dynuddns.com",
+        "insecure": true
+      }
     },
     {
       "type": "selector",
