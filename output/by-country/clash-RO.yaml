@@ -41,7 +41,7 @@ proxies:
     public-key: i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU
     short-id: d06d78e974491b6e
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: firefox
 - name: 🇷🇴 罗马尼亚 (Romania) 05 - xiaohe
   server: 146.70.124.85
   port: 443
@@ -54,7 +54,7 @@ proxies:
     public-key: byzvlw97wjAAAfHs5AZRV0P0H6_JKBEZ4yfLS0HNewE
     short-id: fe24f8a0a560056e
   servername: www.datadoghq.com
-  client-fingerprint: edge
+  client-fingerprint: chrome
 - name: 🇷🇴 罗马尼亚 (Romania) 06 - xiaohe
   server: 82.117.255.174
   port: 443
